@@ -38,6 +38,7 @@
 @media only screen and (max-width: 768px){
     .clock{
         text-align: center;
+        margin-left: calc(50% - 25%);
     }
 }
 
