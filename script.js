@@ -16,8 +16,8 @@ function curTime(){
 
     document.querySelector("#hours").innerHTML = h;
     document.querySelector("#minutes").innerHTML = m;
-    document.querySelector("#seconds").innerHTML = s;
-    // document.querySelector("#am_pm").innerHTML = am_pm;
+    // document.querySelector("#seconds").innerHTML = s;
+    document.querySelector("#am_pm").innerHTML = am_pm;
 
     setTimeout(curTime, 1000);
 }
